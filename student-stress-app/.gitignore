@@ -1,0 +1,15 @@
+# Python caches
+__pycache__/
+*.pyc
+.venv/
+venv/
+ENV/
+
+# Local Netlify/Node folders
+.netlify/
+node_modules/
+dist/
+
+# OS files
+.DS_Store
+Thumbs.db
