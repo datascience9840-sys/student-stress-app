@@ -1,0 +1,12 @@
+[
+  {
+    "question": "In Merchant of Venice, where does Portia live?",
+    "options": ["Venice", "Belmont", "Padua", "Milan"],
+    "answer": "Belmont"
+  },
+  {
+    "question": "Which gas is evolved when calcium carbonate reacts with dilute hydrochloric acid?",
+    "options": ["Hydrogen", "Carbon Dioxide", "Oxygen", "Chlorine"],
+    "answer": "Carbon Dioxide"
+  }
+]
