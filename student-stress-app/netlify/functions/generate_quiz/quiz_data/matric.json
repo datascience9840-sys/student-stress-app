@@ -1,0 +1,12 @@
+[
+  {
+    "question": "Which King built the Grand Anicut (Kallanai) dam on the river Kaveri?",
+    "options": ["Rajaraja Chola", "Karikala Chola", "Pandyan Nedunchezhian", "Cheran Senguttuvan"],
+    "answer": "Karikala Chola"
+  },
+  {
+    "question": "What is the value of the acceleration due to gravity (g) on Earth?",
+    "options": ["9.8 m/s²", "8.9 m/s²", "10.5 m/s²", "7.2 m/s²"],
+    "answer": "9.8 m/s²"
+  }
+]
