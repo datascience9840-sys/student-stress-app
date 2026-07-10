@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Stress & Timetable Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Stress & Timetable Generator</h1>
+        
+        <section class="card">
+            <h2>1. Daily Free Time Input</h2>
+            <form id="timetable-form">
+                <label for="hours">Available Free Hours Today:</label>
+                <input type="number" id="hours" min="1" max="16" required placeholder="e.g., 4">
+                
+                <label for="stress">Current Stress Level (1-10):</label>
+                <input type="range" id="stress" min="1" max="10" value="5">
+                <span id="stress-val">5</span>
+                
+                <button type="submit">Generate Relaxed Timetable</button>
+            </form>
+            <div id="timetable-result" class="result-box"></div>
+        </section>
+
+        <section class="card">
+            <h2>2. Inbuilt Quiz Generator</h2>
+            <form id="quiz-form">
+                <label for="board">Select Board:</label>
+                <select id="board" required>
+                    <option value="CBSE">CBSE</option>
+                    <option value="ICSE">ICSE</option>
+                    <option value="Matriculation">Matriculation</option>
+                </select>
+                
+                <button type="submit">Generate Quiz</button>
+            </form>
+            <div id="quiz-result" class="result-box"></div>
+        </section>
+    </div>
+
+    <script src="js/api.js"></script>
+</body>
+</html>
